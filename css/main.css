@@ -1,0 +1,129 @@
+/* Import external fonts from Google Fonts for typography */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cairo:wght@700&family=Inter:wght@400;700&family=Jomhuria&family=Lexend+Deca&family=Open+Sans:ital,wght@1,300&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* Reset default styles and apply box-sizing globally for consistent layout */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Define custom CSS variables for consistent color usage */
+:root {
+    --Bright-orange: hsl(31, 77%, 52%); /* Color for sedans section */
+    --Dark-cyan: hsl(184, 100%, 22%); /* Color for SUVs section */
+    --Very-dark-cyan: hsl(179, 100%, 13%); /* Color for luxury section */
+    --paragraphs: hsla(0, 0%, 100%, 0.75); /* Semi-transparent white for text */
+    --background-headings-buttons: hsl(0, 0%, 95%); /* Light background color */
+}
+
+/* Style the body with a centered, column-based flex layout */
+body {
+    background-color: var(--background-headings-buttons); /* Light background */
+    font-size: 15px; /* Base font size */
+    font-family: 'Lexend Deca', sans-serif; /* Primary font */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    min-height: 100vh; /* Full viewport height */
+    margin: 1.5rem; /* Margin for spacing */
+    font-weight: 400; /* Normal font weight */
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+/* Grid layout for the container with three equal columns */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    border-radius: 1rem; /* Rounded corners */
+    margin: 2rem; /* Outer spacing */
+    overflow: hidden; /* Ensure child elements respect border-radius */
+}
+
+.container div {
+    padding: 40px;
+}
+
+.container .sedans {
+    background-color: var(--Bright-orange);
+}
+
+.container .suvs {
+    background-color: var(--Dark-cyan);
+}
+
+.container .luxury {
+    background-color: var(--Very-dark-cyan);
+}
+
+.container img {
+    margin-bottom: 2rem;
+}
+
+.container .title {
+    color: var(--background-headings-buttons);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.container .details {
+    color: var(--paragraphs);
+    line-height: 1.7;
+}
+
+.container a {
+    text-decoration: none;
+    background-color: var(--background-headings-buttons);
+    padding: 13px 27px;
+    border-radius: 26px;
+    margin-top: 60px;
+    display: inline-block;
+    border: 2px solid var(--background-headings-buttons);
+    transition: all .4s ease-in-out;
+}
+
+.container .btn-1 {
+    color: var(--Bright-orange);
+}
+
+.container .btn-2 {
+    color: var(--Dark-cyan);
+}
+
+.container .btn-3 {
+    color: var(--Very-dark-cyan);
+}
+
+.container .btn-1:hover,
+.container .btn-2:hover,
+.container .btn-3:hover {
+    background-color: transparent;
+    color: var(--background-headings-buttons);
+    border: 2px solid var(--background-headings-buttons);
+    cursor: pointer;
+}
+
+/* Responsive design for screens up to 768px */
+@media only screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+}
+
+/* Responsive design for screens up to 425px */
+@media only screen and (max-width: 425px) {
+    .container {
+        margin: 2rem .5rem; /* Reduced margin for smaller screens */
+    }
+}
