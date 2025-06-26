@@ -20,7 +20,7 @@ I designed and developed this project entirely by myself as a personal challenge
 
 ---
 
-## 🧐 Overview
+## Overview
 
 ### ✅ The Challenge
 
@@ -31,20 +31,20 @@ Users should be able to:
 
 ---
 
-## 🔗 Links
+## Links
 
 - 💡 **Solution on Frontend Mentor**: [Click here](https://www.frontendmentor.io/solutions/responsive-3-column-card-using-css-grid-and-flexbox-eZPoPdYABl)
 - 🚀 **Live Site**: [https://djabouex.github.io/3-column-preview-card-component/](https://djabouex.github.io/3-Column-Preview-Card-Component/)
 
 ---
 
-## 🛠 My Process
+## My Process
 
 I started by analyzing the layout and breaking it down into components. I then structured the HTML semantically and used CSS Grid and Flexbox for layout. Finally, I added custom properties and hover effects to meet the design.
 
 ---
 
-## 🧱 Built With
+## Built With
 
 - Semantic **HTML5** markup
 - **CSS custom properties** (variables)
@@ -54,7 +54,7 @@ I started by analyzing the layout and breaking it down into components. I then s
 
 ---
 
-## 🚀 What I Learned
+## What I Learned
 
 - Responsive layout design using **CSS Grid** and **Flexbox**
 - Efficient use of **CSS variables** for theming and maintainability
@@ -64,7 +64,7 @@ I started by analyzing the layout and breaking it down into components. I then s
 
 ---
 
-## 📚 Continued Development
+## Continued Development
 
 I plan to:
 
@@ -74,7 +74,7 @@ I plan to:
 
 ---
 
-## 👤 Author
+## Author
 
 - GitHub: [@Djabouex](https://github.com/Djabouex)
 - Frontend Mentor: [@Djabouex](https://www.frontendmentor.io/profile/Djabouex)
@@ -82,7 +82,7 @@ I plan to:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Thanks to the [Frontend Mentor](https://www.frontendmentor.io) community for providing challenges that help sharpen skills through real-world practice.
 
