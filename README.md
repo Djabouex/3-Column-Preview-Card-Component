@@ -34,7 +34,7 @@ Users should be able to:
 ## Links
 
 - 💡 **Solution on Frontend Mentor**: [Click here](https://www.frontendmentor.io/solutions/responsive-3-column-card-using-css-grid-and-flexbox-eZPoPdYABl)
-- 🚀 **Live Site**: [https://djabouex.github.io/3-column-preview-card-component/](https://djabouex.github.io/3-Column-Preview-Card-Component/)
+- 🚀 **Live Site**: [Click here](https://djabouex.github.io/3-Column-Preview-Card-Component/)
 
 ---
 
